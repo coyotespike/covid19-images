@@ -1,3 +1,4 @@
 [submodule "covid-chestxray-dataset"]
 	path = covid-chestxray-dataset
 	url = https://github.com/coyotespike/covid-chestxray-dataset
+	branch = master
