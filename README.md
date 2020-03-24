@@ -1,5 +1,9 @@
 # covid19-images
 
+## Cloning
+You will want the submodules' data as well.
+
+`git clone --recursive git@github.com:coyotespike/covid19-images.git`
 ## Purpose
 
 CT scans have proven more accurate than swab PCR tests for COVID-19. And the fastest test developed so far takes 45 minutes and is not widely deployed. CT scans with a good AI model will take 20 seconds.
