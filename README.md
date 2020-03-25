@@ -3,9 +3,11 @@
 ## Usage
 Warning: a positive CT scan can diagnose the likely presence of COVID-19. Despite papers claiming the contrary, a negative scan means nothing.
 
+You should use this data for machine learning research purposes, or in close collaboration with medical professionals in the ongoing prognosis and treatment of patients. Don't encourage policymakers to rely on CT scans as initial diagnosis.
+
 https://lukeoakdenrayner.wordpress.com/2020/03/23/ct-scanning-is-just-awful-for-diagnosing-covid-19/
 
-You should use this data for machine learning research purposes, or in close collaboration with medical professionals. Don't encourage policymakers to rely on CT scans as initial diagnosis.
+https://thehealthcareblog.com/blog/2020/03/23/can-ai-diagnose-covid-19-on-ct-scans-can-humans/
 
 ### Cloning
 You will want the submodules' data as well.
@@ -20,11 +22,7 @@ We will include code to load data for TensorFlow, PyTorch, FastAI, and more, so 
 Goal is one-liners that run a script so you can just jump into a Jupyter/Kaggle notebook.
 ## Purpose
 
-CT scans have proven more accurate than swab PCR tests for COVID-19. And the fastest test developed so far takes 45 minutes and is not widely deployed. CT scans with a good AI model will take 20 seconds.
-
-To enable multiple methods of diagnosis, we should also build models (and secure accessible frontends) for x-rays - any data that lets a machine assist a human in diagnosing COVID-19.
-
-Multiple teams are coming up with deep learning algorithms to diagnose COVID-19, but they have their own datasets. We need a large open-source dataset to enable many researchers/hackers to innovate, and to enable widespread usage of these AIs.
+PCR swabs are far more accurate than CT scans at diagnosing COVID-19, but CT scans can play a role in prognosis, treatment, and hospital decision-making. We need a large open-source dataset to enable many researchers/hackers to innovate, and to enable widespread usage of helpful AIs.
 
 Deep learning in general works best with images. Many machine learning libraries require data to be organized in a certain way.
 
@@ -34,7 +32,7 @@ This project focuses on aggregating, organizing, augmenting, and loading data fo
 
 This repo uses submodules to include forks of other projects which are building COVID-19-related datasets. 
 
-For examples, ieee8023 has collected positive CT scans. When you find a novel positive CT scan, submit a PR to ieee8023. When his repo is updated, this repo's subproject will sync with upstream and include that new image. 
+For examples, ieee8023 has collected positive CT scans from academic papers. When you find a novel positive CT scan in an academic paper, submit a PR to ieee8023. When his repo is updated, this repo's subproject will sync with upstream and include that new image. 
 
 In this way, datasets can be built modularly. Each dataset owner can validate, clean, and tag the images. 
 

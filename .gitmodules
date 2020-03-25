@@ -6,3 +6,6 @@
 	path = zhanglab-chest-xrays
 	url = git@github.com:coyotespike/zhanglab-chest-xrays.git
 	branch = master
+[submodule "AHP-covid19-ctscans"]
+	path = AHP-covid19-ctscans
+	url = git@github.com:coyotespike/AHP-covid19-ctscans.git
