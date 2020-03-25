@@ -2,3 +2,7 @@
 	path = covid-chestxray-dataset
 	url = https://github.com/coyotespike/covid-chestxray-dataset
 	branch = master
+[submodule "zhanglab-chest-xrays"]
+	path = zhanglab-chest-xrays
+	url = https://github.com/coyotespike/zhanglab-chest-xrays
+	branch = master

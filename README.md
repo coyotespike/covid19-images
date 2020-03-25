@@ -1,6 +1,11 @@
 # covid19-images
 
 ## Usage
+Warning: a positive CT scan can diagnose the likely presence of COVID-19. Despite papers claiming the contrary, a negative scan means nothing.
+
+https://lukeoakdenrayner.wordpress.com/2020/03/23/ct-scanning-is-just-awful-for-diagnosing-covid-19/
+
+You should use this data for machine learning research purposes, or in close collaboration with medical professionals. Don't encourage policymakers to rely on CT scans as initial diagnosis.
 
 ### Cloning
 You will want the submodules' data as well.
