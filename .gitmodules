@@ -4,5 +4,5 @@
 	branch = master
 [submodule "zhanglab-chest-xrays"]
 	path = zhanglab-chest-xrays
-	url = https://github.com/coyotespike/zhanglab-chest-xrays
+	url = git@github.com:coyotespike/zhanglab-chest-xrays.git
 	branch = master
