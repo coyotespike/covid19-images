@@ -58,6 +58,13 @@ In this way, datasets can be built modularly. Each dataset owner can validate, c
 ### Unknown
 - [covid-19-pos-case](https://github.com/coyotespike/covid-19-pos-case) - nothing is known about this data at present
 
+### Datasets
+#### x-rays
+- [Darshan Deshpande's dataset](https://github.com/coyotespike/covid19-detection-xray-dataset)
+
+#### CT Scans
+- None yet
+
 ## Contributing
 
 Click on the [projects tab](https://github.com/coyotespike/covid19-images/projects/1) above to see what needs doing.

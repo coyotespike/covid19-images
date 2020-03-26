@@ -15,3 +15,6 @@
 [submodule "covid-19-pos-case"]
 	path = covid-19-pos-case
 	url = git@github.com:coyotespike/covid-19-pos-case.git
+[submodule "covid19-detection-xray-dataset"]
+	path = covid19-detection-xray-dataset
+	url = git@github.com:coyotespike/covid19-detection-xray-dataset.git
