@@ -63,7 +63,7 @@ In this way, datasets can be built modularly. Each dataset owner can validate, c
 - [Darshan Deshpande's dataset](https://github.com/coyotespike/covid19-detection-xray-dataset)
 
 #### CT Scans
-- None yet
+- [MedSeg's dataset](https://github.com/coyotespike/medseg_ct_dataset) - sourced from [SIRM](https://www.sirm.org/en/).
 
 ## Contributing
 

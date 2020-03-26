@@ -18,3 +18,6 @@
 [submodule "covid19-detection-xray-dataset"]
 	path = covid19-detection-xray-dataset
 	url = git@github.com:coyotespike/covid19-detection-xray-dataset.git
+[submodule "medseg_ct_dataset"]
+	path = medseg_ct_dataset
+	url = git@github.com:coyotespike/medseg_ct_dataset.git
