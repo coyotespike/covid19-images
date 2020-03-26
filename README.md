@@ -1,3 +1,5 @@
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+
 # covid19-images
 
 ## Usage
@@ -9,26 +11,30 @@ https://lukeoakdenrayner.wordpress.com/2020/03/23/ct-scanning-is-just-awful-for-
 
 https://thehealthcareblog.com/blog/2020/03/23/can-ai-diagnose-covid-19-on-ct-scans-can-humans/
 
-### Cloning
-You will want the submodules' data as well.
-
-`git clone --recursive git@github.com:coyotespike/covid19-images.git`
-
 ### Loader Scripts
 Coming soon
 
 We will include code to load data for TensorFlow, PyTorch, FastAI, and more, so that you can immediately start building your model.
 
 Goal is one-liners that run a script so you can just jump into a Jupyter/Kaggle notebook.
+
+This means we will also assemble usable datasets.
+
 ## Purpose
 
 PCR swabs are far more accurate than CT scans at diagnosing COVID-19, but CT scans can play a role in prognosis, treatment, and hospital decision-making. We need a large open-source dataset to enable many researchers/hackers to innovate, and to enable widespread usage of helpful AIs.
 
 Deep learning in general works best with images. Many machine learning libraries require data to be organized in a certain way.
 
-This project focuses on aggregating, organizing, augmenting, and loading data for use in models. We may have companion projects to directly source data.
+This project focuses on aggregating, organizing, augmenting, and loading data for use in models. A couple of the submodules also directly source data.
 
 ## General Organization
+
+We want to include the unprocessed data, so that anyone can drop down and process the data any way they want.
+
+At the second layer, we will include minimally processed data - for instance turning JPEG into DICOM files.
+
+Finally, we will include fully assembled datasets for CT scans and for x-rays, in test/train/val folders, ready to use in any machine learning library.
 
 This repo uses submodules to include forks of other projects which are building COVID-19-related datasets. 
 
@@ -36,13 +42,22 @@ For examples, ieee8023 has collected positive CT scans from academic papers. Whe
 
 In this way, datasets can be built modularly. Each dataset owner can validate, clean, and tag the images. 
 
+## Folder Contents
+
+### COVID-positive CT Scans
+[AH Paris](https://github.com/coyotespike/AHP-covid19-ctscans)
+[ieee8023's dataset](https://github.com/coyotespike/covid-chestxray-dataset)
+
+### COVID-positive x-rays
+[Zhang Lab](https://github.com/coyotespike/zhanglab-chest-xrays/)
+[ieee8023's dataset](https://github.com/coyotespike/covid-chestxray-dataset)
+
+### COVID-negative x-rays
+[NIH Sample](https://github.com/coyotespike/NIH-chestxray-dataset-sample)
+
 ## Contributing
 
 Click on the [projects tab](https://github.com/coyotespike/covid19-images/projects/1) above to see what needs doing.
-
-At this time (March 2020) Arterys Marketplace Slack is coordinating dataset aggregation. Get on there to get access to their Google documents where people are gathering datasets. I will remove this note if the center of gravity shifts elsewhere (or here) - Arterys is assisting deployment of AI models and datesets are a means to an end for them.
-
-https://arterysmarket-6dm2046.slack.com/
 
 ## Adding an issue
 

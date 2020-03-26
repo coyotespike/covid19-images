@@ -9,3 +9,6 @@
 [submodule "AHP-covid19-ctscans"]
 	path = AHP-covid19-ctscans
 	url = git@github.com:coyotespike/AHP-covid19-ctscans.git
+[submodule "NIH-chestxray-dataset-sample"]
+	path = NIH-chestxray-dataset-sample
+	url = git@github.com:coyotespike/NIH-chestxray-dataset-sample.git
