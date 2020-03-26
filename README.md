@@ -45,15 +45,19 @@ In this way, datasets can be built modularly. Each dataset owner can validate, c
 ## Folder Contents
 
 ### COVID-positive CT Scans
-[AH Paris](https://github.com/coyotespike/AHP-covid19-ctscans)
-[ieee8023's dataset](https://github.com/coyotespike/covid-chestxray-dataset)
+- [AH Paris](https://github.com/coyotespike/AHP-covid19-ctscans)
+- [ieee8023's dataset](https://github.com/coyotespike/covid-chestxray-dataset)
 
 ### COVID-positive x-rays
-[Zhang Lab](https://github.com/coyotespike/zhanglab-chest-xrays/)
-[ieee8023's dataset](https://github.com/coyotespike/covid-chestxray-dataset)
+- [Zhang Lab](https://github.com/coyotespike/zhanglab-chest-xrays/)
+- [ieee8023's dataset](https://github.com/coyotespike/covid-chestxray-dataset)
+
 
 ### COVID-negative x-rays
-[NIH Sample](https://github.com/coyotespike/NIH-chestxray-dataset-sample)
+- [NIH Sample](https://github.com/coyotespike/NIH-chestxray-dataset-sample)
+
+### Unknown
+- [covid-19-pos-case](https://github.com/coyotespike/covid-19-pos-case)
 
 ## Contributing
 

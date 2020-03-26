@@ -12,3 +12,6 @@
 [submodule "NIH-chestxray-dataset-sample"]
 	path = NIH-chestxray-dataset-sample
 	url = git@github.com:coyotespike/NIH-chestxray-dataset-sample.git
+[submodule "covid-19-pos-case"]
+	path = covid-19-pos-case
+	url = git@github.com:coyotespike/covid-19-pos-case.git
